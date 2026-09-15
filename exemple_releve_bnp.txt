@@ -1,0 +1,26 @@
+BNP PARIBAS
+Relevé de compte
+Agence Exemple
+TITULAIRE : JEAN DUPONT
+IBAN : FR76 3000 4000 0100 0012 3456 789
+BIC : BNPAFRPPXXX
+
+Ancien solde au 30/04/2026                                   1 250,40
+
+Date        Valeur      Nature des opérations                    Débit        Crédit
+02/05/2026  02/05/2026  VIREMENT EN VOTRE FAVEUR
+                        SALAIRE ACME SA                                       2 480,00
+04/05/2026  04/05/2026  PAIEMENT PAR CARTE
+                        CARREFOUR MARKET 75                      86,30
+07/05/2026  07/05/2026  PRELEVEMENT EUROPEEN
+                        EDF CLIENTS PART                         74,90
+09/05/2026  09/05/2026  PAIEMENT PAR CARTE
+                        AMAZON PAYMENTS                          39,99
+15/05/2026  15/05/2026  VIREMENT SEPA EMIS
+                        SCI DUPONT LOYER                        720,00
+27/05/2026  27/05/2026  FRAIS DE TENUE DE COMPTE *                2,60
+
+Nouveau solde au 31/05/2026                                               2 806,61
+
+Page 1 / 1
+Conditions et tarifs disponibles en agence
