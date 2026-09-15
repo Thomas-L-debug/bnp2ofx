@@ -48,7 +48,7 @@ Le fichier `exemple_releve_bnp.txt` sert de test sans PDF réel.
 
 ## Limites
 
-- Relevés **texte** BNP téléchargés depuis l’espace client. Pas les scans photo.
+- Relevés **PDF** téléchargés depuis l’espace client BNP (on peut y sélectionner le texte). Pas les photos ni les scans papier.
 - Si BNP change la mise en page, le parseur peut se tromper : lisez l’avertissement « soldes ».
 - Compte chèque classique. Les relevés carte / titres / Multi-Choix peuvent différer.
 
