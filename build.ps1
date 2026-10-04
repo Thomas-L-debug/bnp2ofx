@@ -30,10 +30,17 @@ if ($iscc) {
 
 if (-not $setupBuilt) {
     Write-Host "==> Installeur de secours (sans Inno Setup)"
-    $packed = Join-Path $env:TEMP "BNP2OFX-packed.exe"
-    Copy-Item "dist\BNP2OFX.exe" $packed -Force
-    $env:BNP2OFX_PACKED = $packed
-    python -m PyInstaller --noconfirm BNP2OFX-Setup.spec
+    # Copier sous le nom BNP2OFX.exe (pas *-packed.exe) : le setup cherche ce nom.
+    # Dossier hors dist\ pour ne pas se recouvrir pendant le PyInstaller.
+    $payloadDir = Join-Path $PSScriptRoot "build\setup-payload"
+    New-Item -ItemType Directory -Force $payloadDir | Out-Null
+    $payload = Join-Path $payloadDir "BNP2OFX.exe"
+    Copy-Item "dist\BNP2OFX.exe" $payload -Force
+    $env:BNP2OFX_PACKED = $payload
+    python -m PyInstaller --noconfirm --clean BNP2OFX-Setup.spec
+    if ($LASTEXITCODE -ne 0) {
+        throw "PyInstaller a échoué pour BNP2OFX-Setup.exe (code $LASTEXITCODE). Fermez l'installeur s'il est encore ouvert."
+    }
 }
 
 Write-Host ""

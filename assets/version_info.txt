@@ -1,8 +1,8 @@
 # UTF-8
 VSVersionInfo(
   ffi=FixedFileInfo(
-    filevers=(1, 1, 0, 0),
-    prodvers=(1, 1, 0, 0),
+    filevers=(1, 2, 0, 0),
+    prodvers=(1, 2, 0, 0),
     mask=0x3F,
     flags=0x0,
     OS=0x40004,
@@ -18,12 +18,12 @@ VSVersionInfo(
           [
             StringStruct("CompanyName", "BNP2OFX"),
             StringStruct("FileDescription", "Convertisseur de relevés BNP Paribas PDF vers OFX"),
-            StringStruct("FileVersion", "1.1.0"),
+            StringStruct("FileVersion", "1.2.0"),
             StringStruct("InternalName", "BNP2OFX"),
             StringStruct("LegalCopyright", "Usage local, hors ligne"),
             StringStruct("OriginalFilename", "BNP2OFX.exe"),
             StringStruct("ProductName", "BNP2OFX"),
-            StringStruct("ProductVersion", "1.1.0"),
+            StringStruct("ProductVersion", "1.2.0"),
           ],
         )
       ]

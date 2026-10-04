@@ -79,3 +79,7 @@ Sorties dans `dist\` :
 Si [Inno Setup](https://jrsoftware.org/isinfo.php) est installé, l’installeur officiel est utilisé. Sinon, un installeur de secours est généré automatiquement.
 
 À savoir : l’antivirus peut scanner l’exe au premier lancement. C’est banal pour un exe « maison ».
+
+## Licence
+
+MIT. Le logiciel est gratuit : utilisation, copie et modification sont libres. Le texte complet est dans le fichier `LICENSE`.

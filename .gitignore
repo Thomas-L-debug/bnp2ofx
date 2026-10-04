@@ -6,3 +6,7 @@ build/
 dist/
 *.egg-info/
 .pytest_cache/
+
+# Relevés locaux (données bancaires) — ne jamais versionner
+/releve.txt
+/releve.ofx

@@ -1,5 +1,5 @@
 #define AppName "BNP2OFX"
-#define AppVersion "1.1.0"
+#define AppVersion "1.2.0"
 #define AppPublisher "BNP2OFX"
 #define AppExeName "BNP2OFX.exe"
 

@@ -9,8 +9,8 @@ if not packed:
 a = Analysis(
     ["installer/setup_app.py"],
     pathex=[],
-    binaries=[(packed, ".")],
-    datas=[],
+    binaries=[],
+    datas=[(packed, ".")],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -41,4 +41,5 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
     icon="assets\\icon.ico",
+    contents_directory=".",
 )
