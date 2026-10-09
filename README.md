@@ -46,6 +46,23 @@ Ouvrez le fichier `.ofx` dans votre logiciel comptable (Sage, Cegid, GnuCash, Ac
 
 Le fichier `exemple_releve_bnp.txt` sert de test sans PDF réel.
 
+### 4. Désinstaller
+
+L'installeur habituel copie le programme et les raccourcis, sans l'inscrire dans Windows. **BNP2OFX** n'apparaît donc pas dans Paramètres → Applications et fonctionnalités. Pour le retirer, supprimez le programme et ses raccourcis à la main.
+
+1. Fermez **BNP2OFX** s'il est ouvert.
+2. Supprimez le raccourci **BNP2OFX** sur le Bureau, s'il est présent.
+3. Appuyez sur **Windows + R**, collez `%LOCALAPPDATA%\BNP2OFX`, puis Entrée.
+4. Supprimez ce dossier. Il contient `BNP2OFX.exe`.
+5. Pour le raccourci du menu Démarrer : **Windows + R**, collez `%APPDATA%\Microsoft\Windows\Start Menu\Programs`, puis Entrée.
+6. Supprimez le fichier `BNP2OFX.lnk`.
+
+Les fichiers `.ofx` déjà produits à côté des relevés restent en place.
+
+Variante sans installation (`BNP2OFX.exe` lancé directement) : supprimez ce fichier. Rien d'autre n'a été copié sur l'ordinateur.
+
+Si l'installeur a été construit avec Inno Setup, le logiciel figure dans Applications et fonctionnalités : utilisez **Désinstaller**. Le dossier d'installation contient alors `unins000.exe`.
+
 ## Limites
 
 - Relevés **PDF** téléchargés depuis l’espace client BNP (on peut y sélectionner le texte). Pas les photos ni les scans papier.
