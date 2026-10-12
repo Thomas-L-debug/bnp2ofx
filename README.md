@@ -1,7 +1,5 @@
 # BNP2OFX
 
-Petit logiciel fait **pour ma famille**.
-
 BNP Paribas ne propose un vrai export (OFX / QIF) que sur les **~90 derniers jours** (« Télécharger mes opérations »).  
 Les relevés plus anciens, dans les e-Documents, ne sont disponibles **qu’en PDF**.  
 Les sites en ligne du type « PDF vers OFX » marchent, mais ils envoient le relevé — nom, IBAN, historique — sur un serveur inconnu. Ce n’est pas une option.
