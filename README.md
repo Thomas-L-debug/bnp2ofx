@@ -1,10 +1,10 @@
-# BNP2OFX
+# Convertisseur relevés bancaires BNP Paribas de PDF à OFX 
 
-BNP Paribas ne propose un vrai export (OFX / QIF) que sur les **~90 derniers jours** (« Télécharger mes opérations »).  
-Les relevés plus anciens, dans les e-Documents, ne sont disponibles **qu’en PDF**.  
-Les sites en ligne du type « PDF vers OFX » marchent, mais ils envoient le relevé — nom, IBAN, historique — sur un serveur inconnu. Ce n’est pas une option.
+BNP Paribas ne propose pas de bon format de fichier pour le charger dans un logiciel de comptabilité. 
 
-Ce programme tourne **uniquement sur l’ordinateur**. On lui donne un PDF (ou tout un dossier de PDF), il sort des fichiers **OFX** importables dans un logiciel de compta. Rien ne part sur Internet.
+Les sites en ligne du type « PDF vers OFX » marchent, mais ils envoient le relevé — nom, IBAN, historique — sur un serveur inconnu. Vos données financiers se trouvent donc sur internet. 
+
+Ce programme tourne **uniquement sur votre ordinateur** et protège vos données financières. On charge un fichier PDF (ou tout un dossier de PDF), il sort des fichiers en format **OFX** importables dans un logiciel de comptabilité. Rien ne part sur Internet, vos données restent en local.
 
 - Un relevé, ou **tout un dossier** de relevés d’un coup
 - Aucun envoi en ligne
@@ -14,7 +14,7 @@ Ce programme tourne **uniquement sur l’ordinateur**. On lui donne un PDF (ou t
 
 ### 1. Installer
 
-1. Double-cliquez sur **`BNP2OFX-Setup.exe`**.
+1. Double-cliquez sur **`Convertisseur-Setup.exe`**.
 2. Cliquez sur **Oui** / **Suivant** jusqu’à la fin.
 3. Un raccourci **BNP2OFX** apparaît sur le Bureau.
 
@@ -25,7 +25,7 @@ Si Windows affiche « Windows a protégé votre PC » :
 
 (L’avertissement est normal : le logiciel n’a pas de certificat payant.)
 
-Variante sans installation : double-cliquez directement sur **`BNP2OFX.exe`**.
+Variante sans installation : double-cliquez directement sur **`Convertisseur.exe`**.
 
 ### 2. Convertir un dossier de relevés
 
